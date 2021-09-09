@@ -1,0 +1,27 @@
+{
+  "users": [
+	{
+	  "role": "Регистратор",
+	  "username": "user1",
+	  "password": "111"
+	},
+	{
+	  "role": "Начальник управления",
+	  "username": "user2",
+	  "password": "121",
+	  "spec": ["spec1", "spec2"]
+	},
+	{
+	  "role": "Начальник отдела",
+	  "username": "user3",
+	  "password": "111"
+	},
+	{
+	  "role": "Исполнитель",
+	  "username": "user4",
+	  "password": "112",
+	  "spec": ["spec1"]
+	}
+  ],
+  "menu": ["Служба Одного окна"]
+}
