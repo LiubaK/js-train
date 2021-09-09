@@ -3,7 +3,7 @@ deno-proj.js
 ##
 Программа выполняет поиск пользователя с помощью слова или выражения из data.json по параметру --filter.
 В параметре --out указывается название файла, в котором будет сохраняться результат поиска.
-Используется Node.js и deno.land.
+Работает и в Node.js и в deno.land, зависит от заданных параметров в консоли.
 ##
 файлы launch.json и settings.json нужны для работы в vscode, их нужно переместить в папку .vscode
 
@@ -18,4 +18,5 @@ deno-proj.js
 ## Пример запуска и запроса
 ```
 deno run --unstable --allow-all deno-bin.js --filter начальник --out newfile
+node deno-bin.js --filter исполнитель --out newfile
 ```
